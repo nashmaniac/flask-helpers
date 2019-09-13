@@ -1,7 +1,7 @@
 from flask import abort
 from flask_restplus import fields
 
-from flask_helpers.fields import Email
+from flask_utilities.fields import Email
 
 
 class CustomValidator(object):

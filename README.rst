@@ -8,6 +8,6 @@ Installation
 ------------
 Run this command::
 
-    pip install flask-helpers
+    pip install flask-utilities
 
 Happy Coding !!!

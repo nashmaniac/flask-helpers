@@ -2,3 +2,4 @@
 venv/
 dist/
 flask_helpers.egg-info
+*.egg-info

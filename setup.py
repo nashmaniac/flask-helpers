@@ -11,8 +11,8 @@ with open(os.path.join(os.path.dirname(__file__), 'README.rst')) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name='flask-helpers',
-    version='0.1',
+    name='flask-utilities',
+    version='0.2',
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',  # example license
@@ -40,7 +40,7 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Flask',
-        'Framework :: Flask :: 1.1',  # replace "X.Y" as appropriate
+        # 'Framework :: Flask :: 1.1',  # replace "X.Y" as appropriate
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',  # example license
         'Operating System :: OS Independent',
