@@ -12,7 +12,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='flask-utilities',
-    version='0.2',
+    version='0.3',
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',  # example license
@@ -22,6 +22,8 @@ setup(
     author='Raju Ahmed Shetu',
     author_email='shetu2153@gmail.com',
     install_requires=[
+        'Flask-JWT-Extended>=3.23.0',
+        'PyJWT>=1.7.1',
         'aniso8601>=8.0.0',
         'attrs>=19.1.0',
         'Click>=7.0',

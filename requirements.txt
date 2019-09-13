@@ -6,6 +6,7 @@ chardet==3.0.4
 Click==7.0
 docutils==0.15.2
 Flask==1.1.1
+Flask-JWT-Extended==3.23.0
 flask-restplus==0.13.0
 idna==2.8
 itsdangerous==1.1.0
@@ -14,6 +15,7 @@ jsonschema==3.0.2
 MarkupSafe==1.1.1
 pkginfo==1.5.0.1
 Pygments==2.4.2
+PyJWT==1.7.1
 pyrsistent==0.15.4
 pytz==2019.2
 readme-renderer==24.0
