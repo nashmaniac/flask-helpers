@@ -38,6 +38,8 @@ setup(
         'six>=1.12.0',
         'validate-email>=1.3',
         'Werkzeug>=0.15.6',
+        'orator>=0.9.9'
+
     ],
     classifiers=[
         'Environment :: Web Environment',
