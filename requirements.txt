@@ -1,7 +1,7 @@
 aniso8601==8.0.0
 attrs==19.1.0
 backpack==0.1
-bleach==3.1.0
+bleach==3.1.4
 blinker==1.4
 certifi==2019.9.11
 chardet==3.0.4
